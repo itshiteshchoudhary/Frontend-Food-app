@@ -3,7 +3,7 @@ import { assests } from '../../images/images'
 
 const AppDownload = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-8 m-8'>
+    <div id='download' className='flex flex-col justify-center items-center gap-8 m-8'>
         <p className='text-5xl font-extrabold'>For Better Experience Download </p>
         <p className='text-5xl font-extrabold'>Healthy Food</p>
         <div className='flex gap-28'>

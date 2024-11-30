@@ -5,7 +5,7 @@ const ExploreMenu = ({category ,setCategory}) => {
     console.log(category);
     
     return (
-        <div className='mx-6'>
+        <div id="menu" className='mx-6'>
             <h2 className='mt-12 text-3xl font-extrabold'>Explore Menu</h2>
             <p className='max-w-[60vw] mt-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis aut enim pariatur ut, ipsam est quisquam atque quod provident earum ipsa aliquam ab, nobis vel, alias quae dolore inventore obcaecati.</p>
             <div className='flex gap-10'>

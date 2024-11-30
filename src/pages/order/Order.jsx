@@ -2,7 +2,9 @@ import React from 'react'
 
 const Order = () => {
   return (
-    <div>Order</div>
+    <div className='text-5xl m-5'>
+        Order Details
+    </div>
   )
 }
 
