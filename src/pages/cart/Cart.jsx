@@ -40,11 +40,11 @@ const Cart = () => {
                         </div>
                         <div className='flex justify-between mx-4 border-b-2 border-green-950'>
                             <p>Delivery Fee</p>
-                            <p>RS {2}</p>
-                        </div>
+                            <p>RS {getTotalCartItem()>0 ? 2 : 0}</p>
+                        </div> 
                         <div className='flex justify-between mx-4 border-b-2 border-green-950'>
                             <b>Total</b>
-                            <b>RS {getTotalCartItem()+2}</b>
+                            <b>RS {getTotalCartItem()>0 ? getTotalCartItem()+2 : 0}</b>
                         </div>
                         <button onClick={()=>navigate("/order")} className='bg-red-800 px-8 py-2 rounded-md self-center text-nowrap object-cover'>PROCEED TO CHECKOUT</button>
                     </div>
